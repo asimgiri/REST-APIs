@@ -12,8 +12,15 @@
   border: 1px solid #dfdfdf;
   height: 100vh;
   padding: 1rem 0;
+  position: absolute;
+  transition: .5s ease-out;
 }
 
 .menu-label{
   padding: 0 .9rem;
+}
+
+.wrapper button{
+  position: absolute;
+  left: 18rem;
 }

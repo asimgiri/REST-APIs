@@ -16,9 +16,9 @@ export default class SideNav extends Component {
 
     render() {
         return (
-            <div className="columns">
-                <div className="column is-narrow" style={{ display: `${this.state.display ? 'block' : 'none'}`}}>
-                    <aside className="menu">
+            <div className="columns wrapper">
+                <div className="column is-narrow">
+                    <aside className="menu" style={{ left: `${this.state.display ? '0' : '-20rem'}` }}>
                         <p className="menu-label">
                             General
 </p>
@@ -56,7 +56,7 @@ export default class SideNav extends Component {
                 <div className="column">
                     <button className="button" onClick={this.onClickHandler}>Toggle Menu</button>
                 </div>
-            </div>
+            </div>  
         )
     }
 }
