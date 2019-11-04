@@ -16,11 +16,12 @@
   transition: .5s ease-out;
 }
 
-.menu-label{
+.menu-label {
   padding: 0 .9rem;
 }
 
-.wrapper button{
+.wrapper button {
   position: absolute;
-  left: 18rem;
+  transition: .5s ease-out;
+  border-left: 0;
 }

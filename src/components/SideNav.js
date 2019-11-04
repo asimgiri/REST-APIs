@@ -54,9 +54,15 @@ export default class SideNav extends Component {
                     </aside>
                 </div>
                 <div className="column">
-                    <button className="button" onClick={this.onClickHandler}>Toggle Menu</button>
+                    <button
+                        className="button"
+                        onClick={this.onClickHandler}
+                        style={{ left: `${this.state.display ? '18rem' : '0'}` }}
+                    >
+                        <i class="fas fa-bars"></i>
+                    </button>
                 </div>
-            </div>  
+            </div>
         )
     }
 }
