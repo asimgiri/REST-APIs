@@ -7,3 +7,13 @@
 .random_cats img {
   width: 5%;
 }
+
+.menu {
+  border: 1px solid #dfdfdf;
+  height: 100vh;
+  padding: 1rem 0;
+}
+
+.menu-label{
+  padding: 0 .9rem;
+}

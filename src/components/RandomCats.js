@@ -12,6 +12,7 @@ export default class RandomCats extends Component {
         setInterval(this.fetchData, 1000)
     }
 
+
     fetchData = async () => {
         const response = await fetch('https://aws.random.cat/meow');
         const data = await response.json();
